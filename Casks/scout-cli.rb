@@ -14,22 +14,22 @@ cask "scout-cli" do
   on_macos do
     on_intel do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "36df6aaf968b68510ee9c3025cbae9c8c8f411f76bb36ee76b078e335866d0d2"
+      sha256 "253c8f07121d86f84e2fa0097126c93d6d361f517ff92335decf430372967166"
     end
     on_arm do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "95afd93fece44e38b82a584b18c934029e7361f2d08430c1b923b5ba7ae23617"
+      sha256 "9e87c246bac2458eeabea212907f17f5c90b096a8d5562a196b2a95a368ac1af"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "65447c0fa15bb9b66fd86aa52f14876e7e9c8459fb4ddd6f6d24cacecb1183b7"
+      sha256 "8c40b4ef98710d71d26223f032d2cddf9a2f4bb4627fe427d9b5edacc9e59f0d"
     end
     on_arm do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "2e2f19565dd94b44c246965002b883002953ee3641a5ad9fde6569759a4b8c2e"
+      sha256 "921b4e693b041e297a562d3270f86d87fabba77670beaf0ce88d3fc0ee1ac2e0"
     end
   end
 
