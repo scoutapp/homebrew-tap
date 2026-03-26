@@ -3,7 +3,7 @@ cask "scout-cli" do
   name "scout-cli"
   desc "Scout APM CLI — monitor application performance from the terminal"
   homepage "https://github.com/scoutapp/scout-cli"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "scout-cli" do
   on_macos do
     on_intel do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "253c8f07121d86f84e2fa0097126c93d6d361f517ff92335decf430372967166"
+      sha256 "79905eecc9ab172c2904b704ad9b608fa65d8b84ac2d183bcb94edde9f314a5d"
     end
     on_arm do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "9e87c246bac2458eeabea212907f17f5c90b096a8d5562a196b2a95a368ac1af"
+      sha256 "cc1647c8cb00491b132b4110608ece5229984b40741b9b6a75b6a1f8d54ddcc8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "8c40b4ef98710d71d26223f032d2cddf9a2f4bb4627fe427d9b5edacc9e59f0d"
+      sha256 "7a9d14b31402a413361a94b4113dfcc1c5f4cff17b66ca724c9733af13057151"
     end
     on_arm do
       url "https://github.com/scoutapp/scout-cli/releases/download/v#{version}/scout-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "921b4e693b041e297a562d3270f86d87fabba77670beaf0ce88d3fc0ee1ac2e0"
+      sha256 "f6e5c7e1bd3a94d94612e67622eec73b80026c67aacd3f31832850d09695d5d9"
     end
   end
 
