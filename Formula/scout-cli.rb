@@ -2,8 +2,8 @@ class ScoutCli < Formula
   desc "Scout APM CLI — monitor application performance from the terminal"
   homepage "https://github.com/scoutapp/scout-cli"
   url "https://github.com/scoutapp/scout-cli.git",
-      tag:      "v0.3.2",
-      revision: "f5e1042821fd0c146d807f6f87f2d727942af9f5"
+      tag:      "v0.3.3",
+      revision: "cb75de429b166384c519867851b970f55dcfd8fb"
   license "MIT"
   head "https://github.com/scoutapp/scout-cli.git", branch: "main"
 
@@ -11,6 +11,6 @@ class ScoutCli < Formula
 
   def install
     ldflags = "-s -w -X github.com/scoutapm/scout/cmd.Version=#{version}"
-    system "go", "build", *std_go_args(ldflags: ldflags), "."
+    system "go", "build", *std_go_args(ldflags: ldflags, output: bin/"scout"), "."
   end
 end
