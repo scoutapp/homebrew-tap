@@ -2,8 +2,8 @@ class ScoutCli < Formula
   desc "Scout APM CLI — monitor application performance from the terminal"
   homepage "https://github.com/scoutapp/scout-cli"
   url "https://github.com/scoutapp/scout-cli.git",
-      tag:      "v0.3.3",
-      revision: "cb75de429b166384c519867851b970f55dcfd8fb"
+      tag:      "v0.4.0",
+      revision: "dac4563f82359fa8882497bb58e095b21a387fdb"
   license "MIT"
   head "https://github.com/scoutapp/scout-cli.git", branch: "main"
 
